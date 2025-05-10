@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="13" passed="10" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-23T23:08:07 IST" name="Suite" finished-at="2025-04-23T23:08:08 IST" duration-ms="1277">
+    <groups>
+      <group name="Functional">
+        <method signature="Grouping_Demo.test4()[pri:0, instance:First_Project.Grouping_Demo@445b295b]" name="test4" class="First_Project.Grouping_Demo"/>
+      </group> <!-- Functional -->
+      <group name="User">
+        <method signature="Grouping_Demo.test2()[pri:0, instance:First_Project.Grouping_Demo@445b295b]" name="test2" class="First_Project.Grouping_Demo"/>
+        <method signature="Grouping_Demo.test3()[pri:0, instance:First_Project.Grouping_Demo@445b295b]" name="test3" class="First_Project.Grouping_Demo"/>
+        <method signature="Grouping_Demo.test4()[pri:0, instance:First_Project.Grouping_Demo@445b295b]" name="test4" class="First_Project.Grouping_Demo"/>
+      </group> <!-- User -->
+      <group name="Regression,Functional">
+        <method signature="Grouping_Demo.test2()[pri:0, instance:First_Project.Grouping_Demo@445b295b]" name="test2" class="First_Project.Grouping_Demo"/>
+        <method signature="Grouping_Demo.test3()[pri:0, instance:First_Project.Grouping_Demo@445b295b]" name="test3" class="First_Project.Grouping_Demo"/>
+      </group> <!-- Regression,Functional -->
+    </groups>
+    <test started-at="2025-04-23T23:08:07 IST" name="Test" finished-at="2025-04-23T23:08:08 IST" duration-ms="1277">
+      <class name="First_Project.Grouping_Demo">
+        <test-method signature="test2()[pri:0, instance:First_Project.Grouping_Demo@445b295b]" started-at="2025-04-23T23:08:07 IST" name="test2" finished-at="2025-04-23T23:08:07 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:First_Project.Grouping_Demo@445b295b]" started-at="2025-04-23T23:08:07 IST" name="test3" finished-at="2025-04-23T23:08:07 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:First_Project.Grouping_Demo@445b295b]" started-at="2025-04-23T23:08:07 IST" name="test4" finished-at="2025-04-23T23:08:07 IST" duration-ms="23" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Case Failed Screenshot captured expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Case Failed Screenshot captured expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at First_Project.Grouping_Demo.test4(Grouping_Demo.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- First_Project.Grouping_Demo -->
+      <class name="First_Project.BeforeMethod_AfterMethod">
+        <test-method is-config="true" signature="LogintoApplication()[pri:0, instance:First_Project.BeforeMethod_AfterMethod@757277dc]" started-at="2025-04-23T23:08:08 IST" name="LogintoApplication" finished-at="2025-04-23T23:08:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintoApplication -->
+        <test-method signature="Test1()[pri:1, instance:First_Project.BeforeMethod_AfterMethod@757277dc]" started-at="2025-04-23T23:08:08 IST" name="Test1" description="This is Login Test" finished-at="2025-04-23T23:08:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="lLogoutFromApplication()[pri:0, instance:First_Project.BeforeMethod_AfterMethod@757277dc]" started-at="2025-04-23T23:08:08 IST" name="lLogoutFromApplication" finished-at="2025-04-23T23:08:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lLogoutFromApplication -->
+        <test-method is-config="true" signature="LogintoApplication()[pri:0, instance:First_Project.BeforeMethod_AfterMethod@757277dc]" started-at="2025-04-23T23:08:08 IST" name="LogintoApplication" finished-at="2025-04-23T23:08:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintoApplication -->
+        <test-method signature="Test2()[pri:2, instance:First_Project.BeforeMethod_AfterMethod@757277dc]" started-at="2025-04-23T23:08:08 IST" name="Test2" description="This is logout Test" finished-at="2025-04-23T23:08:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="lLogoutFromApplication()[pri:0, instance:First_Project.BeforeMethod_AfterMethod@757277dc]" started-at="2025-04-23T23:08:08 IST" name="lLogoutFromApplication" finished-at="2025-04-23T23:08:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lLogoutFromApplication -->
+        <test-method is-config="true" signature="LogintoApplication()[pri:0, instance:First_Project.BeforeMethod_AfterMethod@757277dc]" started-at="2025-04-23T23:08:08 IST" name="LogintoApplication" finished-at="2025-04-23T23:08:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintoApplication -->
+        <test-method signature="Test3()[pri:3, instance:First_Project.BeforeMethod_AfterMethod@757277dc]" started-at="2025-04-23T23:08:08 IST" name="Test3" description="This is Login Test" finished-at="2025-04-23T23:08:08 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="lLogoutFromApplication()[pri:0, instance:First_Project.BeforeMethod_AfterMethod@757277dc]" started-at="2025-04-23T23:08:08 IST" name="lLogoutFromApplication" finished-at="2025-04-23T23:08:08 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lLogoutFromApplication -->
+      </class> <!-- First_Project.BeforeMethod_AfterMethod -->
+      <class name="First_Project.BeforeTestAndAfterTest">
+        <test-method is-config="true" signature="LogintoApplication()[pri:0, instance:First_Project.BeforeTestAndAfterTest@291caca8]" started-at="2025-04-23T23:08:07 IST" name="LogintoApplication" finished-at="2025-04-23T23:08:07 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintoApplication -->
+        <test-method signature="Test1()[pri:1, instance:First_Project.BeforeTestAndAfterTest@291caca8]" started-at="2025-04-23T23:08:07 IST" name="Test1" description="This is Login Test" finished-at="2025-04-23T23:08:07 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test2()[pri:2, instance:First_Project.BeforeTestAndAfterTest@291caca8]" started-at="2025-04-23T23:08:07 IST" name="Test2" description="This is logout Test" finished-at="2025-04-23T23:08:07 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:3, instance:First_Project.BeforeTestAndAfterTest@291caca8]" started-at="2025-04-23T23:08:07 IST" name="Test3" description="This is Login Test" finished-at="2025-04-23T23:08:07 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="lLogoutFromApplication()[pri:0, instance:First_Project.BeforeTestAndAfterTest@291caca8]" started-at="2025-04-23T23:08:08 IST" name="lLogoutFromApplication" finished-at="2025-04-23T23:08:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lLogoutFromApplication -->
+      </class> <!-- First_Project.BeforeTestAndAfterTest -->
+      <class name="First_Project.FirstTest">
+        <test-method signature="LoginTest()[pri:1, instance:First_Project.FirstTest@5c671d7f]" started-at="2025-04-23T23:08:08 IST" name="LoginTest" description="This is Login Test" finished-at="2025-04-23T23:08:08 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="LogoutTest()[pri:2, instance:First_Project.FirstTest@5c671d7f]" started-at="2025-04-23T23:08:08 IST" name="LogoutTest" description="This is logout Test" finished-at="2025-04-23T23:08:08 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+      </class> <!-- First_Project.FirstTest -->
+      <class name="First_Project.VerifyTitle">
+        <test-method signature="titleTest()[pri:0, instance:First_Project.VerifyTitle@49e5f737]" started-at="2025-04-23T23:08:07 IST" name="titleTest" finished-at="2025-04-23T23:08:08 IST" duration-ms="957" status="FAIL">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[java.net.UnknownHostException: googlechromelabs.github.io]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: googlechromelabs.github.io
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1421)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427)
+at First_Project.VerifyTitle.titleTest(VerifyTitle.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.net.UnknownHostException: googlechromelabs.github.io
+at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:998)
+at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1807)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1676)
+at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
+at io.github.bonigarcia.wdm.online.Parser.parseJson(Parser.java:54)
+at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:117)
+at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+      </class> <!-- First_Project.VerifyTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

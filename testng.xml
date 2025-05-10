@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Test">
+	<test name="Functional Testing">
+		<classes>
+			<class name="First_Project.BeforeTestAndAfterTest" />
+			<class name="First_Project.Grouping_Demo" />
+			<class name="First_Project.VerifyTitle" />
+			<class name="First_Project.FirstTest" />
+			<class name="First_Project.BeforeMethod_AfterMethod" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
